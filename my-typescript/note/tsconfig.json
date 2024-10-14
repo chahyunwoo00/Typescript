@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "checkJs": true,
+    "noImplicitAny": true
+  },
+  "include": ["./src/**/*"],
+  "exclude": ["./src/**/*.js"],
+
+  "moduleDetection": "force",//아니면 ts파일마다 export{}하는 방법도 있음
+
+}
+
